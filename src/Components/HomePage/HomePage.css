@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.about-us{
+  width: 420px;
+  background: slateblue;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.829);
+  color:#fff;
+  border-radius: 10px;
+  padding: 100px 500px;
+  padding-bottom: 50px;
+  margin-left: 250px;
+  margin-top: 40px;
+}
+.pic{
+  height: auto;
+  width:  700px;
+  padding-right:  90px;
+}
+.logo
+{
+  width:20px;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+.about{
+  width: 1130px;
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.text{
+  width: 540px;
+  padding-right: 50px;
+  
+}
+.text h2{
+  font-size: 90px;
+  font-weight: 600;
+  margin-bottom: 30px;  
+  color: #fff;
+
+}
+.text h2:hover{
+  color:black;
+}
+
+.text h5{
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;   
+  color: white;     
+}
+span{
+  color: #1d0a65;
+}
+.text p{
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  color: white;
+}
+.data{
+  margin-top: 30px;
+}
+.hire{
+  text-decoration:none;
+  font-size: 18px;
+  font-weight: 400;
+  background: #1d0c6c;
+  color:white;
+  padding: 8px 25px;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+.hire:hover{
+  background: #000;
+text-decoration: none;
+  /* border: 1px solid #4070f4; */
+}
