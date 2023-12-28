@@ -13,12 +13,12 @@ const toogle_mode=()=>{
   return (
     <div className='navbar'>
       <ul>
-      <li className='li'><Link className='link' to ={'./HomePage'}><b>Home</b></Link></li>
-      <li className='li'><Link className='link' to={'/'}><b>Login</b></Link></li>
+      <li className='li'><Link className='link' to ={'/'}><b>Home</b></Link></li>
+      <li className='li'><Link className='link' to={'/LoginForm'}><b>Login</b></Link></li>
       <li className='li'><Link className='link' to={'./SigninForm'}><b>Signin</b></Link></li>
       <li className='li'><Link className='link' to={'./Aboutus'}><b>About</b></Link></li>
-      <li className='li'><Link className='link' to={'./Aboutus'}><b>Products</b></Link></li>
-      <li className='li'><Link className='link' to={'./Aboutus'}><b>Features</b></Link></li>
+      <li className='li'><Link className='link' to={'./Products'}><b>Products</b></Link></li>
+      <li className='li'><Link className='link' to={'./Features'}><b>Features</b></Link></li>
       </ul>
       <div className='search-box'>
       <input type="text" placeholder='Search'/>

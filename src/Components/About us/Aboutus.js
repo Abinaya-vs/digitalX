@@ -3,7 +3,7 @@ import './Aboutus.css';
 const Aboutus = () => {
   return (
     <div className="about-us-container">
-      <h1>About Us</h1>
+      <h1 className='p'>About Us</h1>
       <p className='as'>
       <b>
         Welcome to DiGix, where digital innovation meets marketing excellence.

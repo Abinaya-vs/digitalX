@@ -6,6 +6,8 @@ import LoginForm from './Components/LoginForm/LoginForm';
 import Navbar from './Components/Navbar/Navbar';
 import SigninForm from './Components/SigninForm/SigninForm';
 import HomePage from './Components/HomePage/HomePage';
+import Products from './Components/Products/Products';
+import Features from './Components/Features/Features';
 function App() {
   const current_theme=localStorage.getItem('current_theme');
   const [theme, setTheme] = useState(current_theme ? current_theme:'light');
@@ -19,10 +21,12 @@ localStorage.setItem('current_theme',theme);
     <BrowserRouter>
       <Navbar theme={theme} setTheme={setTheme} />
       <Routes>
-        <Route path="/" element={<LoginForm />} />
+      <Route path='/' element={<HomePage />} />
+        <Route path="/LoginForm" element={<LoginForm />} />
         <Route path='/SigninForm' element={<SigninForm />} />
         <Route path='/Aboutus' element={<Aboutus />} />
-        <Route path='/HomePage' element={<HomePage />} />
+        <Route path='/Products' element={<Products/>}/>
+        <Route path='/Features' element={<Features/>}/>
       </Routes>
     </BrowserRouter>
     </div>
@@ -62,7 +66,8 @@ localStorage.setItem('current_theme',theme);
             <div className="sb__footer-links_div">
             <h4>Company</h4>
             <a href="/about">
-                <p>About</p>
+          <p>About</p>
+                
             </a>
             <a href="/press">
                 <p>Press</p>

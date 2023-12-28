@@ -17,8 +17,11 @@ body {
     margin-bottom: 1px;
   }
   
-  h1, h2 {
-    color: black; /* Dark text color */
+ h2 {
+    color: black;
+  }
+  p {
+   color: brown;
   }
   
   p {
@@ -27,7 +30,7 @@ body {
   }
   .as
   {
-    color: black;
+    color:black;
   }
   
   ul {

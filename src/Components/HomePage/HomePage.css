@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+
 }
 .about-us{
   width: 420px;
@@ -13,7 +14,7 @@
   border-radius: 10px;
   padding: 100px 500px;
   padding-bottom: 50px;
-  margin-left: 250px;
+  margin-left: 330px;
   margin-top: 40px;
 }
 .pic{

@@ -1,17 +1,18 @@
 .wrapper
 {
+    margin-top: 50px;
 width: 420px;
 background: slateblue;
 box-shadow: 0 0 10px rgba(0, 0, 0, 0.829);
 color:#fff;
 border-radius: 10px;
 padding: 30px 40px;
-margin-top: 20px;
 }
 .wrapper h1
 {
     font-size: 36px;
     text-align: center;
+    margin-top: 2px;
 }
 
 .wrapper .input-box{
